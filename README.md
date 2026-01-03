@@ -31,6 +31,32 @@ Key Features-
 
 📍 Personalized Recommendations
 
+
+```mermaid
+flowchart of TravelWise
+    A[User Request] --> B[Planner Agent]
+    B --> C[Route Agent]
+    B --> D[Budget Agent]
+    B --> E[Time Agent]
+    B --> F[Recommendation Agent]
+    B --> G[Risk Agent]
+
+    C --> H[Route Options]
+    D --> I[Budget Allocation]
+    E --> J[Schedule Plan]
+    F --> K[Personalized Places]
+    G --> L[Backup Plans]
+
+    H --> M[Final Travel Plan]
+    I --> M
+    J --> M
+    K --> M
+    L --> M
+```
+
+
+
+
 ⚠️ Risk Detection & Backup Planning
 
 🧩 Modular & Scalable Design
