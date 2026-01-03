@@ -31,9 +31,11 @@ Key Features-
 
 📍 Personalized Recommendations
 
+🧩 Modular & Scalable Design
+
 
 ```mermaid
-flowchart of TravelWise
+flowchart TD
     A[User Request] --> B[Planner Agent]
     B --> C[Route Agent]
     B --> D[Budget Agent]
@@ -56,7 +58,3 @@ flowchart of TravelWise
 
 
 
-
-⚠️ Risk Detection & Backup Planning
-
-🧩 Modular & Scalable Design
